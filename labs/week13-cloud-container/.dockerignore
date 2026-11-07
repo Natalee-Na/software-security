@@ -1,0 +1,23 @@
+# Git files
+.git
+.gitignore
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+secrets/
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Other unnecessary files
+.DS_Store
+Thumbs.db
